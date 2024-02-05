@@ -1,0 +1,15 @@
+.register__logo {
+    margin: 70px 0 0 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .register__logo {
+        margin: 232px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .register__logo {
+        margin: 56px 0 0 0;
+    }
+}

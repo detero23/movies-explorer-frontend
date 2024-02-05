@@ -1,24 +1,19 @@
-import logo from '../../logo.svg';
-import './NotFound.css';
+import './notFound.css';
+import './notFound__mainText.css'
+import './notFound__subText.css'
+import './notFound__backLink.css'
 
 function NotFound() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Not Found
-        </a>
-      </header>
-    </div>
+    <section className="notFound">
+      <h2 className="notFound__mainText">404</h2>
+      <p className="notFound__subText">Страница не найдена</p>
+      <button
+        type="button"
+        className="notFound__backLink"
+      // onClick={onClose}
+      >Назад</button>
+    </section>
   );
 }
 

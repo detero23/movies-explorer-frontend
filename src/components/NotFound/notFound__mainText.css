@@ -1,0 +1,20 @@
+.notFound__mainText {
+    margin: 246px 0 0 0;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 169.43px;
+}
+
+@media screen and (max-width: 1000px) {
+    .notFound__mainText {
+        margin: 408px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .notFound__mainText {
+        margin: 329px 0 0 0;
+        font-size: 80px;
+        line-height: 96.82px;
+    }
+}
