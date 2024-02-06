@@ -1,0 +1,12 @@
+.header__link-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .header__link-holder {
+        gap: 14px;
+    }
+}

@@ -1,0 +1,16 @@
+.header__login-holder {
+    width: 76px;
+    height: 32px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3DDC84;
+}
+
+@media screen and (max-width: 500px) {
+    .header__login-holder {
+        width: 54px;
+        height: 26px;
+    }
+}

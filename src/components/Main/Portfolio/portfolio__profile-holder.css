@@ -1,0 +1,12 @@
+.portfolio__profile-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__profile-holder {
+        max-width: 364px;
+    }
+}

@@ -1,0 +1,9 @@
+.footer__line {
+    width: 100%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #424242;
+    margin: 1px 0;
+    padding: 0;
+}

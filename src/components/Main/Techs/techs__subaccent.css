@@ -1,0 +1,16 @@
+.techs__subaccent {
+    margin: 26px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .techs__subaccent {
+        margin: 24px 0 0 0;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}

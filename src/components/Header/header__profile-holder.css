@@ -1,0 +1,9 @@
+.header__profile-holder {
+    width: 100px;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+}

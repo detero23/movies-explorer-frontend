@@ -1,0 +1,16 @@
+.project__weeks {
+    width: 100%;
+    margin: 110px 0 110px 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .project__weeks {
+        margin: 60px 0 69px 0;
+        grid-template-columns: 100px 1fr;
+    }
+}

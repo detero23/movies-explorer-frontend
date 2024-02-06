@@ -1,0 +1,11 @@
+.project__description-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+@media screen and (max-width: 500px) {
+    .project__description-holder {
+        gap: 16px;
+    }
+}

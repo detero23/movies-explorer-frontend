@@ -1,24 +1,23 @@
-import logo from '../../logo.svg';
-import './Main.css';
+import './main.css';
+
+import Header from '../Header/Header';
+import Promo from './Promo/Promo';
+import Project from './Project/Project';
+import Techs from './Techs/Techs';
+import Portfolio from './Portfolio/Portfolio';
+import Footer from '../Footer/Footer';
 
 function Main() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Main
-        </a>
-      </header>
-    </div>
+  return (<>
+    <Header loggedIn={false}></Header>
+    <section className="main">
+      <Promo></Promo>
+      <Project></Project>
+      <Techs></Techs>
+      <Portfolio></Portfolio>
+    </section>
+    <Footer></Footer>
+  </>
   );
 }
 
