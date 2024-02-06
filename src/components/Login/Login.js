@@ -1,11 +1,12 @@
 import React from "react";
-// import green_logo from "../../images/green-logo.svg";
+import { Navigate } from "react-router-dom";
 
 import Logo from "../Logo/Logo";
 import Form from "../Form/Form";
 
 import "./login.css";
 import "./login__logo.css";
+
 
 export default function Login({ onLogin, buttonText }) {
   const tempErr = false;
@@ -21,8 +22,7 @@ export default function Login({ onLogin, buttonText }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert(`login: ${login} ,password: ${password}`)
-    // onLogin(login, password);
+    onLogin(login, password);
   }
 
   return (

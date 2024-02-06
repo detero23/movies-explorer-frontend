@@ -1,5 +1,4 @@
 import React from "react";
-// import green_logo from "../../images/green-logo.svg";
 
 import Logo from "../Logo/Logo";
 import Form from "../Form/Form";
@@ -25,8 +24,7 @@ export default function Register({ onRegister, buttonText }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    alert(`name: ${name} ,login: ${login} ,password: ${password}`)
-    // onRegister(login, password);
+    onRegister(name, login, password);
   }
 
   return (

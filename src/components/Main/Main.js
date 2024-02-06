@@ -7,9 +7,10 @@ import Techs from './Techs/Techs';
 import Portfolio from './Portfolio/Portfolio';
 import Footer from '../Footer/Footer';
 
-function Main() {
+function Main({ loggedIn }) {
+
   return (<>
-    <Header loggedIn={false}></Header>
+    <Header loggedIn={loggedIn}></Header>
     <section className="main">
       <Promo></Promo>
       <Project></Project>
