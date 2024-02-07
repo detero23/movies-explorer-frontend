@@ -1,0 +1,13 @@
+.header__menu-btn {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__menu-btn {
+        display: block;
+    }
+}
+
+.header__menu-btn:hover {
+    opacity: .7;
+}

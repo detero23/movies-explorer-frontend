@@ -1,0 +1,12 @@
+.header__link-holder-auth {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__link-holder-auth {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+.search__trigger-holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin: 28px 0 40px 0;
+}

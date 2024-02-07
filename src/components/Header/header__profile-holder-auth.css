@@ -1,4 +1,4 @@
-.header__profile-holder {
+.header__profile-holder-auth {
     width: 100px;
     height: 32px;
     border-radius: 20px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .header__profile-holder {
+    .header__profile-holder-auth {
         display: none;
     }
 }

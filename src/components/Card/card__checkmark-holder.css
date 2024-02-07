@@ -1,0 +1,14 @@
+.card__checkmark-holder {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.card__checkmark-holder:hover {
+    opacity: .7;
+    cursor: pointer;
+}

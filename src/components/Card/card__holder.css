@@ -1,0 +1,12 @@
+.card__holder {
+    position: relative;
+    width: 100%;
+}
+
+.card__holder:hover .card__save {
+    visibility: visible;
+}
+
+.card__holder:hover .card__cross {
+    visibility: visible;
+}

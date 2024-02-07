@@ -1,0 +1,25 @@
+.savedmovies__more {
+    margin: 50px auto 80px;
+    padding: 0;
+    width: 320px;
+    height: 36px;
+    border: none;
+    background: none;
+    border: 1px solid none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 750px) {
+    .savedmovies__more {
+        width: 240px;
+    }
+}
+
+.savedmovies__more:hover {
+    opacity: .7;
+}

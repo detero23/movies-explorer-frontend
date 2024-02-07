@@ -51,6 +51,7 @@ function App() {
             path="/movies"
             element={
               <Movies
+                loggedIn={loggedIn}
               />
             }
           />
@@ -58,6 +59,7 @@ function App() {
             path="/saved-movies"
             element={
               <SavedMovies
+                loggedIn={loggedIn}
               />
             }
           />

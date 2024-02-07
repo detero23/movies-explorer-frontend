@@ -1,5 +1,4 @@
 import React from "react";
-import { Navigate } from "react-router-dom";
 
 import Logo from "../Logo/Logo";
 import Form from "../Form/Form";
