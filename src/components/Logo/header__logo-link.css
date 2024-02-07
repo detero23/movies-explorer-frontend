@@ -1,8 +1,8 @@
-.logo__link {
+.header__logo-link {
     padding: 0;
     margin: 0;
 }
 
-.logo__link:hover {
+.header__logo-link:hover {
     opacity: .7;
 }

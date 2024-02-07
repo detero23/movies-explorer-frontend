@@ -11,12 +11,12 @@ function Main({ loggedIn }) {
 
   return (<>
     <Header loggedIn={loggedIn}></Header>
-    <section className="main">
+    <main className="main">
       <Promo></Promo>
       <Project></Project>
       <Techs></Techs>
       <Portfolio></Portfolio>
-    </section>
+    </main>
     <Footer></Footer>
   </>
   );

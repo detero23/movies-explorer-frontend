@@ -18,15 +18,17 @@ function SavedMovies({ loggedIn }) {
   return (
     <>
       <Header loggedIn={loggedIn}></Header>
-      <section className='savedmovies'>
-        <Search></Search>
-        <div className='savedmovies__list'>
-          <Card src={example_1} name="33 слова о дизайне" runtime="1ч 17м" ownList={ownList}></Card>
-          <Card src={example_2} name="Киноальманах «100 лет дизайна»" runtime="1ч 17м" saved={true} ownList={ownList}></Card>
-          <Card src={example_3} name="В погоне за Бенкси" runtime="1ч 17м" ownList={ownList}></Card>
-        </div>
-        <button className='savedmovies__more'></button>
-      </section>
+      <main>
+        <section className='savedmovies'>
+          <Search></Search>
+          <div className='savedmovies__list'>
+            <Card src={example_1} name="33 слова о дизайне" runtime="1ч 17м" ownList={ownList}></Card>
+            <Card src={example_2} name="Киноальманах «100 лет дизайна»" runtime="1ч 17м" saved={true} ownList={ownList}></Card>
+            <Card src={example_3} name="В погоне за Бенкси" runtime="1ч 17м" ownList={ownList}></Card>
+          </div>
+          <button className='savedmovies__more'></button>
+        </section>
+      </main>
       <Footer></Footer>
     </>
   );

@@ -25,43 +25,45 @@ export default function Login({ onLogin, buttonText }) {
   }
 
   return (
-    <section className="login">
-      <Logo name="Login"></Logo>
-      <Form name="Login"
-        title="Рады видеть!"
-        onSubmit={handleSubmit}
-        buttonText={"Войти"}
-        subText="Ещё не зарегистрированы?"
-        pageLink="/signup"
-        linkText="Регистрация" >
-        <p className="form__clue">E-mail</p>
-        <input
-          type="email"
-          className="form__input"
-          placeholder="E-mail"
-          id="inputSigninLogin"
-          name="inputSigninLogin"
-          minLength="2"
-          maxLength="40"
-          value={login}
-          onChange={handleLoginChange}
-          required
-        />
-        <p className="form__clue">Пароль</p>
-        <input
-          type="password"
-          className="form__input"
-          placeholder="Пароль"
-          id="inputSigninPassword"
-          name="inputSigninPassword"
-          minLength="2"
-          maxLength="200"
-          value={password}
-          onChange={handlePasswordChange}
-          required
-        />
-        <span className={`form__error ${tempErr ? "form__error_active" : ""}`}>Что-то пошло не так...</span>
-      </Form>
-    </section>
+    <main>
+      <section className="login">
+        <Logo name="Login"></Logo>
+        <Form name="Login"
+          title="Рады видеть!"
+          onSubmit={handleSubmit}
+          buttonText={"Войти"}
+          subText="Ещё не зарегистрированы?"
+          pageLink="/signup"
+          linkText="Регистрация" >
+          <p className="form__clue">E-mail</p>
+          <input
+            type="email"
+            className="form__input"
+            placeholder="E-mail"
+            id="inputSigninLogin"
+            name="inputSigninLogin"
+            minLength="2"
+            maxLength="40"
+            value={login}
+            onChange={handleLoginChange}
+            required
+          />
+          <p className="form__clue">Пароль</p>
+          <input
+            type="password"
+            className="form__input"
+            placeholder="Пароль"
+            id="inputSigninPassword"
+            name="inputSigninPassword"
+            minLength="2"
+            maxLength="200"
+            value={password}
+            onChange={handlePasswordChange}
+            required
+          />
+          <span className={`form__error ${tempErr ? "form__error_active" : ""}`}>Что-то пошло не так...</span>
+        </Form>
+      </section>
+    </main>
   );
 }

@@ -34,6 +34,10 @@ function App() {
   function onRegister(name, email, password) {
     navigate('/signin');
   }
+  function onPrevious() {
+    navigate(-1);
+  }
+
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
@@ -92,6 +96,7 @@ function App() {
             path="*"
             element={
               <NotFound
+                onPrevious={onPrevious}
               />
             }
           />

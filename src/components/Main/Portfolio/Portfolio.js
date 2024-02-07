@@ -12,9 +12,9 @@ import "./portfolio__profile-git.css";
 import "./portfolio__photo.css";
 import "./portfolio__header.css";
 import "./portfolio__links.css";
-import "./portfolio__link-holder.css";
-import "./portfolio__link-name.css";
 import "./portfolio__link.css";
+import "./portfolio__link-name.css";
+import "./portfolio__link-arrow.css";
 
 function Portfolio() {
     return (<>
@@ -33,20 +33,20 @@ function Portfolio() {
             </div>
             <h3 className="portfolio__header">Портфолио</h3>
             <nav className="portfolio__links">
-                <div className="portfolio__link-holder">
+                <a className="portfolio__link" target="_blank" href="https://github.com/detero23/russian-travel" rel="noopener noreferrer">
                     <p className="portfolio__link-name">Статичный сайт</p>
-                    <a className="portfolio__link" target="_blank" href="https://github.com/detero23/russian-travel" rel="noopener noreferrer">↗</a>
-                </div>
+                    <p className="portfolio__link-arrow">↗</p>
+                </a>
                 <span className='portfolio__line portfolio__line_gray'></span>
-                <div className="portfolio__link-holder">
+                <a className="portfolio__link" target="_blank" href="https://github.com/detero23/mesto" rel="noopener noreferrer">
                     <p className="portfolio__link-name">Адаптивный сайт</p>
-                    <a className="portfolio__link" target="_blank" href="https://github.com/detero23/mesto" rel="noopener noreferrer">↗</a>
-                </div>
+                    <p className="portfolio__link-arrow">↗</p>
+                </a>
                 <span className='portfolio__line portfolio__line_gray'></span>
-                <div className="portfolio__link-holder">
+                <a className="portfolio__link" target="_blank" href="https://github.com/detero23/mesto-react" rel="noopener noreferrer">
                     <p className="portfolio__link-name">Одностраничное приложение</p>
-                    <a className="portfolio__link" target="_blank" href="https://github.com/detero23/mesto-react" rel="noopener noreferrer">↗</a>
-                </div>
+                    <p className="portfolio__link-arrow">↗</p>
+                </a>
             </nav>
         </section>
     </>

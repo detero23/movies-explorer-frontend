@@ -18,22 +18,24 @@ function Profile({ loggedIn, onLogout }) {
   return (
     <>
       <Header loggedIn={loggedIn}></Header>
-      <section className="profile">
-        <h1 className='profile__header'>{`Привет, ${currentUser.name}!`}</h1>
-        <div className="profile__names">
-          <div className="profile__name-holder">
-            <p className="profile__name">Имя</p>
-            <p className="profile__name">{currentUser.name}</p>
+      <main>
+        <section className="profile">
+          <h1 className='profile__header'>{`Привет, ${currentUser.name}!`}</h1>
+          <div className="profile__names">
+            <div className="profile__name-holder">
+              <p className="profile__name">Имя</p>
+              <p className="profile__name">{currentUser.name}</p>
+            </div>
+            <span className="profile__line"></span>
+            <div className="profile__name-holder">
+              <p className="profile__name">E-mail</p>
+              <p className="profile__name">{currentUser.email}</p>
+            </div>
           </div>
-          <span className="profile__line"></span>
-          <div className="profile__name-holder">
-            <p className="profile__name">E-mail</p>
-            <p className="profile__name">{currentUser.email}</p>
-          </div>
-        </div>
-        <button className="profile__edit">Редактировать</button>
-        <button className="profile__logout" onClick={onLogout}>Выйти из аккаунта</button>
-      </section>
+          <button className="profile__edit">Редактировать</button>
+          <button className="profile__logout" onClick={onLogout}>Выйти из аккаунта</button>
+        </section>
+      </main>
     </>
   );
 }

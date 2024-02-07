@@ -29,7 +29,7 @@ export default function Form({
             className={`form form_type_${name.toLowerCase()}`}
             id={`form${name}}`}
         >
-            <h2 className="form__title">{title}</h2>
+            <h1 className="form__title">{title}</h1>
             <form
                 className="form__container"
                 name={`form${name}Form`}
