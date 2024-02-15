@@ -1,9 +1,9 @@
 .savedmovies__list {
     width: 100%;
-    margin: 70px 0 12px 0;
+    margin: 69px 0 12px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px 30px;
+    gap: 54px 30px;
     justify-items: center;
     align-items: center;
 }

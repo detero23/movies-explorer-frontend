@@ -15,10 +15,11 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .techs__tech {
         font-size: 12px;
         line-height: 15px;
+        width: 84px;
     }
 }
 

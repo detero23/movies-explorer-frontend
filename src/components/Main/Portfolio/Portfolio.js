@@ -18,7 +18,7 @@ import "./portfolio__link-arrow.css";
 
 function Portfolio() {
     return (<>
-        <section className="portfolio" id="Project">
+        <section className="portfolio" id="Portfolio">
             <h2 className="portfolio__student">Студент</h2>
             <span className='portfolio__line'></span>
             <div className="portfolio__profile">

@@ -8,6 +8,12 @@
     text-align: left;
 }
 
+@media screen and (max-width: 1000px) {
+    .portfolio__link-name {
+        font-size: 28px;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .portfolio__link-name {
         font-size: 18px;

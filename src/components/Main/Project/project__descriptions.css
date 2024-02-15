@@ -4,8 +4,15 @@
     text-align: left;
     justify-content: space-between;
     margin: 70px 0 0 0;
+    gap: 40px;
 }
 
+
+@media screen and (max-width: 1000px) {
+    .project__descriptions {
+        gap: 30px;
+    }
+}
 
 @media screen and (max-width: 500px) {
     .project__descriptions {

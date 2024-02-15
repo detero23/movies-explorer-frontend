@@ -9,6 +9,12 @@
     color: #8B8B8B;
 }
 
+@media screen and (max-width: 1000px) {
+    .portfolio__header {
+        margin: 41px auto 50px 0;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .portfolio__header {
         margin: 70px auto 40px 0;

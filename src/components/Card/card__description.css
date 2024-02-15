@@ -1,10 +1,22 @@
 .card__description {
     width: 100%;
     margin: 0;
-    padding: 14px 14px 0;
+    padding: 8px 14px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    .card__description {
+        padding: 23px 0px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .card__description {
+        padding: 14px 0px 0;
+    }
 }

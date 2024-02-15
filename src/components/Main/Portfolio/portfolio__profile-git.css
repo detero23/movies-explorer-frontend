@@ -11,6 +11,12 @@
     margin-top: auto;
 }
 
+@media screen and (max-width: 1000px) {
+    .portfolio__profile-git {
+        margin: 61px 0 0 0;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .portfolio__profile-git {
         margin: 40px 0 0 0;

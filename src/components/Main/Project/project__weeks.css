@@ -1,11 +1,18 @@
 .project__weeks {
     width: 100%;
-    margin: 110px 0 110px 0;
+    margin: 110px 0 104px 0;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .project__weeks {
+        margin: 90px 0 69px 0;
+        grid-template-columns: 140px 1fr;
+    }
 }
 
 @media screen and (max-width: 500px) {

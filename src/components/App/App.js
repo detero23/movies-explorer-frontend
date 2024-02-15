@@ -27,7 +27,7 @@ function App() {
     navigate('/');
   }
   function onLogin(email, password) {
-    setLoggedIn(true);
+    setLoggedIn(false);
     setCurrentUser({ name: currentUser.name, email: email })
     navigate('/profile');
   }

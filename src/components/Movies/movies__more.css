@@ -1,5 +1,5 @@
 .movies__more {
-    margin: 50px auto 80px;
+    margin: 67px auto 91px;
     padding: 0;
     width: 320px;
     height: 36px;
@@ -22,4 +22,5 @@
 
 .movies__more:hover {
     opacity: .7;
+    cursor: pointer;
 }
