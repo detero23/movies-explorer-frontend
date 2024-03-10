@@ -1,0 +1,19 @@
+.header__menu-btn {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__menu-btn {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__menu-btn {
+        max-width: 40px;
+    }
+}
+
+.header__menu-btn:hover {
+    opacity: .7;
+}

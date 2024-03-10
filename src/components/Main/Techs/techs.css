@@ -1,0 +1,20 @@
+.techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 70px 0;
+    background-color: #272727;
+}
+
+@media screen and (max-width: 1000px) {
+    .techs {
+        padding: 105px 50px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .techs {
+        padding: 58px 18px 0;
+        background-color: #202020;
+    }
+}

@@ -1,0 +1,16 @@
+.promo__anchor-holder {
+    width: 96px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .promo__anchor-holder {
+        width: 82px;
+        height: 26px;
+    }
+}

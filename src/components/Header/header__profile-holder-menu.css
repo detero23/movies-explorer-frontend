@@ -1,0 +1,12 @@
+.header__profile-holder-menu {
+    width: 100px;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    /* margin: 0 0 90px 0; */
+    position: absolute;
+    bottom: 90px;
+}

@@ -1,0 +1,7 @@
+.header__link-holder-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    margin: 159px 0 0 0;
+}

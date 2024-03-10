@@ -1,0 +1,24 @@
+.savedmovies__list {
+    width: 100%;
+    margin: 69px 0 12px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .savedmovies__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .savedmovies__list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px 40px;
+        margin: 40px 0 12px 0;
+    }
+}

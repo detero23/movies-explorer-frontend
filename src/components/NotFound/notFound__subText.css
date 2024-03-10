@@ -1,0 +1,14 @@
+.notFound__subText {
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+@media screen and (max-width: 500px) {
+    .notFound__subText {
+        margin: 10px 0 0 0;
+        font-size: 12px;
+        line-height: 14.52px;
+    }
+}

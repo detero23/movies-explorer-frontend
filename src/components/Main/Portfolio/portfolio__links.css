@@ -1,0 +1,22 @@
+.portfolio__links {
+    margin: 0 0 125px 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__links {
+        margin: 0 0 88px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__links {
+        gap: 19px;
+        margin: 0 0 70px 0;
+    }
+}

@@ -1,0 +1,13 @@
+.profile__names {
+    width: 100%;
+    margin: 96px 0 209px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .profile__names {
+        margin: 67px 0 202px 0;
+    }
+}

@@ -1,0 +1,15 @@
+.card__cross-holder {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    visibility: hidden;
+}
+
+.card__cross-holder:hover {
+    opacity: .7;
+    cursor: pointer;
+}

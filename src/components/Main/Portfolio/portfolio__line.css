@@ -1,0 +1,13 @@
+.portfolio__line {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-top: 1px solid #DADADA;
+    padding: 0;
+}
+
+@media screen and (min-width: 1000px) {
+    .portfolio__line_gray {
+        border-top: 1px solid #424242;
+    }
+}

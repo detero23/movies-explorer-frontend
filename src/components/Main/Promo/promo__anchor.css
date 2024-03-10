@@ -1,0 +1,19 @@
+.promo__anchor {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    .promo__anchor {
+        font-size: 10px;
+    }
+}
+
+.promo__anchor:hover {
+    opacity: .7;
+}

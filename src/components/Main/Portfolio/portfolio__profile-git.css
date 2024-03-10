@@ -1,0 +1,28 @@
+.portfolio__profile-git {
+    text-decoration: none;
+    border: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__profile-git {
+        margin: 61px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__profile-git {
+        margin: 40px 0 0 0;
+    }
+}
+
+.portfolio__profile-git:hover {
+    opacity: .7;
+}

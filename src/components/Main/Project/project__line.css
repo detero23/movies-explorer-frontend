@@ -1,0 +1,7 @@
+.project__line {
+    width: 100%;
+    display: block;
+    border: 0;
+    border-top: 1px solid #DADADA;
+    padding: 0;
+}

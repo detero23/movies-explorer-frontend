@@ -1,0 +1,11 @@
+.header__link-menu_account {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.header__link-menu_account:hover {
+    text-decoration: none;
+}
